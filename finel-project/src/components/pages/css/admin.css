@@ -1,0 +1,60 @@
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: 25%;
+  background-image: linear-gradient(180deg, #38d9a9, #3bc9db);
+
+  padding: 1rem;
+  border-radius: 10%;
+}
+.admin-form input {
+  width: 60%;
+  margin-left: 20%;
+  border: none;
+}
+.admin-form label {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.toggel-btn {
+  width: auto;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border: none;
+  font-size: 1.5rem;
+  border-radius: 9px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.toggel-btn:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+}
+.submit-btn {
+  cursor: pointer;
+  width: 40%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 9px;
+  margin-left: 30%;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+.submit-btn:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
+.admin-message {
+  text-align: center;
+  color: red;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,49 @@
+.transaction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14rem;
+}
+.transaction h1 {
+  margin-left: 30%;
+  margin-bottom: 3rem;
+}
+.transaction-form,
+input,
+select {
+  font-size: 2rem;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  text-align: center;
+}
+.transaction-form input {
+  width: 25%;
+  padding: 0.5rem 1rem;
+}
+.transaction-form button {
+  height: 100%;
+  padding: 1rem;
+  border-radius: 6px;
+  background-color: var(--bright-blue--);
+  padding: 0.8rem 1rem;
+  border: none;
+  transform: translateY(-2px);
+}
+.transaction-details {
+  margin-top: 2rem;
+  border: solid 2px #364fc7;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 80%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+}
+.transaction-details p {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+}

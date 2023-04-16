@@ -1,0 +1,16 @@
+.menu {
+  margin-top: 9%;
+}
+.menu-message {
+  color: red;
+  text-align: center;
+}
+.edit-controll {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.edit-controll h1 {
+  margin-left: 50%;
+  transform: translateX(-20%);
+  margin-bottom: 4rem;
+}

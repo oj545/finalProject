@@ -1,0 +1,85 @@
+.purchases-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 3px #4649ff;
+  background-color: white;
+  border-radius: 20px;
+  padding: 1rem;
+  margin-bottom: 5rem;
+}
+
+.purchases-form div:nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 2rem;
+}
+.purchases-form-comboxs {
+  display: flex;
+  justify-content: space-b;
+  margin-bottom: 1.5rem;
+}
+
+.purchases-form select {
+  padding: 0.7rem 3rem;
+  font-size: 2rem;
+}
+.purchases-form input {
+  border: solid 1px black;
+}
+
+.purchases-form-btn {
+  padding: 0.3rem 1rem;
+  font-size: 2rem;
+  border-radius: 5px;
+  border: none;
+}
+.purchases-form-btn:hover {
+  background-color: #91a7ff;
+}
+
+.product-col {
+  display: flex;
+  flex-direction: column;
+}
+.purchases-tabel {
+  width: 100%;
+
+  box-shadow: 10px 10px 10px hsla(0, 7%, 26%, 0.397);
+  border-collapse: collapse;
+}
+
+.purchases-tabel td {
+  font-size: 2rem;
+  text-align: center;
+}
+.purchases-tabel thead {
+  background-color: #91a7ff;
+}
+.purchases-tabel th {
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.purchases-tabel tr:nth-child(even) {
+  background-color: #dbe4ff;
+}
+.fitlters-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+@media only screen and (max-width: 410px) {
+  .purchases-form-comboxs {
+    display: flex;
+    justify-content: center;
+  }
+  .purchases-form input,
+  select {
+    width: 30%;
+  }
+}

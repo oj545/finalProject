@@ -1,0 +1,83 @@
+.tabel-controll {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tabel-head {
+  background-color: #13005a;
+  border: solid 2px #13005a;
+  padding: 2rem;
+  color: #03c988;
+}
+
+.tabel-body tr {
+  background-color: white;
+  border: solid 1px #13005a;
+}
+.tabel-purchases thead tr {
+  background-color: #03c988;
+}
+.tabel-purchases {
+  border-collapse: collapse;
+}
+.tabel-controll th {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.tabel-customer {
+  border: solid 1px #13005a;
+}
+
+.tabel-products {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.8rem;
+}
+
+.tabel-customer {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-right: 50%;
+}
+.tabel-purchases {
+  width: 100%;
+}
+.tabel-purchases td {
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.products-links {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+  font-style: oblique;
+  font-weight: 400;
+
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+.tabel-buy {
+  padding: 1rem;
+}
+.buy-link {
+  padding: 0.3rem 1rem;
+  font-size: 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  border: solid 1px #13005a;
+  font-style: italic;
+}
+.buy-link:hover {
+  background-color: #03c988;
+}
+@media screen and (max-width: 470px) {
+  .responsive {
+    display: none;
+  }
+}
